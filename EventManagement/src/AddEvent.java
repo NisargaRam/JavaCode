@@ -16,7 +16,7 @@ public class AddEvent extends HttpServlet{
         String a6=request.getParameter("venue");
         String a7=request.getParameter("date");
         
-        //Connection to Database
+        //Connection to Database vv
         try{
             Class.forName("oracle.jdbc.driver.OracleDriver");
             String conURL = "jdbc:oracle:thin:@localhost:1521:xe";
